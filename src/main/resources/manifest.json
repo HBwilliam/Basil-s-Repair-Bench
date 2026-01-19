@@ -1,0 +1,15 @@
+{
+  "Group": "com.basilisme",
+  "Name": "Basil's Repair Bench",
+  "Version": "1.0.0",
+  "Description": "Adds a block to repair your equipment at no cost.",
+  "Main": "com.basilisme.plugin.RepairBenchPlugin",
+  "Authors": [
+    {
+      "Name": "BasilIsMe",
+      "Email": "",
+      "Url": ""
+    }
+  ],
+  "IncludesAssetPack": true
+}
