@@ -1,74 +1,19 @@
-# HelloPlugin
+## Basil's Repair Bench
+Basil's Repair Bench adds a whopping 1 new item, The.... Repair Bench!
 
-A simple example plugin for Hytale servers demonstrating the basics of plugin development.
+![](https://media.forgecdn.net/attachments/description/null/description_64610e5c-c1a0-4964-bae7-938c79264a6b.png)
 
-📺 **Video Tutorial**: [Watch on YouTube](https://www.youtube.com/watch?v=NEw9QjzZ9nM)
+The Repair Bench can be interacted with to repair your items free of charge! No more hastle with those pesky repair kits!
 
-## Features
+Future updates will include a "Repair All" Button and a more representative model.
 
-- Registers a `/hello` command
-- Displays a title message to players when executed
+*"There's something very wrong about a katana that shatters after five or six hits, one that ostensibly isn't made out of glass or chocolate."*
 
-## Requirements
+*— Zero Punctuation, review of Silent Hill: Origins*!
 
-- Java 17+
-- Hytale Server API (`HytaleServer.jar`)
+![](https://media.forgecdn.net/attachments/thumbnails/1479/704/310/172/hytale2026-01-19_18-35-05-png.png)
+![](https://media.forgecdn.net/attachments/thumbnails/1479/708/310/172/hytale2026-01-19_18-58-46-png.png)
+![](https://media.forgecdn.net/attachments/thumbnails/1479/709/310/172/hytale2026-01-19_18-58-50-png.png)
 
-## Getting HytaleServer.jar
-
-You need the `HytaleServer.jar` file to compile plugins. There are two ways to obtain it:
-
-### Option 1: From Hytale Launcher
-
-After installing the Hytale Launcher, you can find the server files in:
-
-| OS      | Path                                                            |
-|---------|-----------------------------------------------------------------|
-| Windows | `%appdata%\Hytale\install\release\package\game\latest`          |
-| Linux   | `$XDG_DATA_HOME/Hytale/install/release/package/game/latest`     |
-| macOS   | `~/Application Support/Hytale/install/release/package/game/latest` |
-
-Copy `HytaleServer.jar` from that directory into the `libs/` folder of this project.
-
-### Option 2: Hytale Downloader CLI
-
-For production servers, you can use the official **Hytale Downloader CLI** tool to download the latest server files. This requires OAuth2 authentication.
-
-For more details, see the official [Hytale Server Manual](https://support.hytale.com/hc/en-us/articles/45326769420827-Hytale-Server-Manual).
-
-## Building
-
-1. Place `HytaleServer.jar` in the `libs/` directory
-2. Build with Gradle:
-
-```bash
-./gradlew build
-```
-
-The compiled plugin JAR will be located at `build/libs/HelloPlugin-1.0-SNAPSHOT.jar`.
-
-## Installation
-
-Copy the built JAR file to your Hytale server's `plugins/` directory.
-
-## Usage
-
-In-game, use the command:
-
-```
-/hello
-```
-
-This will display a title message saying "Hello world!" to the player.
-
-## Project Structure
-
-```
-src/main/java/com/example/plugin/
-├── HelloPlugin.java    # Main plugin class
-└── HelloCommand.java   # Command implementation
-```
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+Download:
+W.I.P
