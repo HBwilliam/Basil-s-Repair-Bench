@@ -55,7 +55,7 @@
     "CustomModel": "Blocks/Bench_Repair/Repairbench.blockymodel",
     "CustomModelTexture": [
       {
-        "Texture": "Blocks/Benches/Workbench2_Texture.png",
+        "Texture": "Blocks/Bench_Repair/Repairbench_Texture.png",
         "Weight": 1
       }
     ],
