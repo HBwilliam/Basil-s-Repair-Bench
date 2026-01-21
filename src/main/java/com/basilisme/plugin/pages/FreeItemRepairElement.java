@@ -24,6 +24,10 @@ public class FreeItemRepairElement extends ChoiceElement {
         commandBuilder.append("#ElementList", "Pages/ItemRepairElement.ui");
         commandBuilder.set(selector + " #Icon.ItemId", this.itemStack.getItemId().toString());
         commandBuilder.set(selector + " #Name.TextSpans", Message.translation(this.itemStack.getItem().getTranslationKey()));
-        commandBuilder.set(selector + " #Durability.Text", durabilityPercentage + "%");
+        if (this.itemStack.getMaxDurability() != this.itemStack.getItem().getMaxDurability() && durabilityPercentage == 100.0F) {
+            commandBuilder.set(selector + " #Durability.Text", "Lost Durability");
+        } else {
+            commandBuilder.set(selector + " #Durability.Text", durabilityPercentage + "%");
+        }
     }
 }

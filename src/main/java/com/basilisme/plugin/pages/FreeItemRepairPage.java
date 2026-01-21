@@ -19,7 +19,7 @@ import java.util.List;
 
 public class FreeItemRepairPage extends ChoiceBasePage {
     public FreeItemRepairPage(@Nonnull PlayerRef playerRef, @Nonnull ItemContainer itemContainer, double repairPenalty, ItemContext heldItemContext) {
-        super(playerRef, getItemElements(itemContainer, repairPenalty, heldItemContext), "Pages/ItemRepairPage.ui");
+        super(playerRef, getItemElements(itemContainer, repairPenalty, heldItemContext), "Pages/FreeItemRepairPage.ui");
     }
 
     public void build(@Nonnull Ref<EntityStore> ref, @Nonnull UICommandBuilder commandBuilder, @Nonnull UIEventBuilder eventBuilder, @Nonnull Store<EntityStore> store) {
@@ -38,7 +38,7 @@ public class FreeItemRepairPage extends ChoiceBasePage {
 
         for(short slot = 0; slot < itemContainer.getCapacity(); ++slot) {
             ItemStack itemStack = itemContainer.getItemStack(slot);
-            if (!ItemStack.isEmpty(itemStack) && !itemStack.isUnbreakable() && !(itemStack.getDurability() >= itemStack.getMaxDurability())) {
+            if (!ItemStack.isEmpty(itemStack) && !itemStack.isUnbreakable() && !(itemStack.getDurability() >= itemStack.getItem().getMaxDurability())) {
                 ItemContext itemContext = new ItemContext(itemContainer, slot, itemStack);
                 elements.add(new FreeItemRepairElement(itemStack, new FreeRepairItemInteraction(itemContext, repairPenalty)));
             }

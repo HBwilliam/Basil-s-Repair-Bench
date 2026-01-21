@@ -18,7 +18,6 @@ public class FreeRepairPageSupplier implements OpenCustomUIInteraction.CustomPag
     // Optional config: you can ignore or expose repairPenalty later
     public static final BuilderCodec<FreeRepairPageSupplier> CODEC =
             BuilderCodec.builder(FreeRepairPageSupplier.class, FreeRepairPageSupplier::new)
-                    // No fields for now
                     .build();
 
     @Override
@@ -33,7 +32,6 @@ public class FreeRepairPageSupplier implements OpenCustomUIInteraction.CustomPag
         // All equipped + hotbar + utility slots
         ItemContainer container = player.getInventory().getCombinedArmorHotbarUtilityStorage();
 
-        // Your existing FreeItemRepairPage ctor: (playerRef, container, repairPenalty, heldItemContext)
         return new FreeItemRepairPage(playerRef, container, 0.0, null);
     }
 }

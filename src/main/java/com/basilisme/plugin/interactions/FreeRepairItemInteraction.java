@@ -35,7 +35,7 @@ public class FreeRepairItemInteraction extends ChoiceInteraction {
         PageManager pageManager = playerComponent.getPageManager();
         ItemStack itemStack = this.itemContext.getItemStack();
         double itemStackDurability = itemStack.getDurability();
-        double itemStackMaxDurability = itemStack.getMaxDurability();
+        double itemStackMaxDurability = itemStack.getItem().getMaxDurability();
         double ratioAmountRepaired = (double)1.0F - itemStackDurability / itemStackMaxDurability;
         double newMaxDurability = (double) MathUtil.floor(itemStackMaxDurability - itemStack.getItem().getMaxDurability() * this.repairPenalty * ratioAmountRepaired);
         if (itemStackDurability >= newMaxDurability) {
