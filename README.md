@@ -5,8 +5,6 @@ Basil's Repair Bench adds a whopping 1 new item, The.... Repair Bench!
 
 The Repair Bench can be interacted with to repair your items free of charge! No more hastle with those pesky repair kits!
 
-Future updates will include a "Repair All" Button and a more representative model.
-
 *"There's something very wrong about a katana that shatters after five or six hits, one that ostensibly isn't made out of glass or chocolate."*
 
 *— Zero Punctuation, review of Silent Hill: Origins*!
