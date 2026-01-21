@@ -63,7 +63,8 @@
     "Flags": {},
     "Gathering": {
       "Breaking": {
-        "GatherType": "Benches"
+        "GatherType": "Benches",
+        "DropList": "Bench_Repair"
       }
     },
     "HitboxType": "Bench_Workbench",
