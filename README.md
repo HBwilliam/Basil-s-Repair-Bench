@@ -16,4 +16,4 @@ Future updates will include a "Repair All" Button and a more representative mode
 ![](https://media.forgecdn.net/attachments/thumbnails/1479/709/310/172/hytale2026-01-19_18-58-50-png.png)
 
 Download:
-W.I.P
+[here](https://www.curseforge.com/hytale/mods/basils-repair-bench)
