@@ -1,7 +1,7 @@
 {
   "TranslationProperties": {
-    "Name": "server.items.Bench_Repair.name",
-    "Description": "server.items.Bench_Repair.description"
+    "Name": "items.Bench_Repair.name",
+    "Description": "items.Bench_Repair.description"
   },
   "PlayerAnimationsId": "Block",
   "Categories": [
