@@ -1,15 +1,15 @@
-package com.basilisme.plugin;
-import com.basilisme.plugin.commands.RepairCommand;
-import com.basilisme.plugin.pages.FreeRepairPageSupplier;
+package com.basilisme.repairbench;
+import com.basilisme.repairbench.commands.RepairCommand;
+import com.basilisme.repairbench.pages.FreeRepairPageSupplier;
 import com.hypixel.hytale.server.core.modules.interaction.interaction.config.server.OpenCustomUIInteraction;
 import com.hypixel.hytale.server.core.plugin.JavaPlugin;
 import com.hypixel.hytale.server.core.plugin.JavaPluginInit;
 
 import javax.annotation.Nonnull;
 
-public class RepairBenchPlugin extends JavaPlugin {
+public class RepairBench extends JavaPlugin {
 
-    public RepairBenchPlugin(@Nonnull JavaPluginInit init) {
+    public RepairBench(@Nonnull JavaPluginInit init) {
         super(init);
     }
 

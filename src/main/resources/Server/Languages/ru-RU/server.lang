@@ -1,2 +1,3 @@
 items.Bench_Repair.name = Верстак ремонта
 items.Bench_Repair.description = Используется для ремонта предметов без затрат.\n\n<i>"Что-то очень неправильное в катане, которая ломается после пяти или шести ударов, катане, которая, предположительно, не сделана из стекла или шоколада."\n— Zero Punctuation, обзор Silent Hill: Origins</i>
+customUI.freeItemRepairPage.noItems = Нет предметов для починки.

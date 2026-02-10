@@ -1,6 +1,6 @@
-package com.basilisme.plugin.pages;
+package com.basilisme.repairbench.pages;
 
-import com.basilisme.plugin.interactions.FreeRepairItemInteraction;
+import com.basilisme.repairbench.interactions.FreeRepairItemInteraction;
 import com.hypixel.hytale.component.Ref;
 import com.hypixel.hytale.component.Store;
 import com.hypixel.hytale.server.core.entity.entities.player.pages.choices.ChoiceBasePage;
@@ -28,7 +28,7 @@ public class FreeItemRepairPage extends ChoiceBasePage {
         } else {
             commandBuilder.append(this.getPageLayout());
             commandBuilder.clear("#ElementList");
-            commandBuilder.appendInline("#ElementList", "Label { Text: %customUI.itemRepairPage.noItems; Style: (Alignment: Center); }");
+            commandBuilder.appendInline("#ElementList", "Label { Text: %server.customUI.freeItemRepairPage.noItems; Style: (Alignment: Center); }");
         }
     }
 

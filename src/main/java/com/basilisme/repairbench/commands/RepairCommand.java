@@ -1,6 +1,6 @@
-package com.basilisme.plugin.commands;
+package com.basilisme.repairbench.commands;
 
-import com.basilisme.plugin.pages.FreeItemRepairPage;
+import com.basilisme.repairbench.pages.FreeItemRepairPage;
 import com.hypixel.hytale.component.Ref;
 import com.hypixel.hytale.component.Store;
 import com.hypixel.hytale.server.core.command.system.CommandContext;

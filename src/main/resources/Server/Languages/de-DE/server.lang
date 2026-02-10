@@ -1,2 +1,3 @@
 items.Bench_Repair.name = Reparaturbank
 items.Bench_Repair.description = Dient zum Reparieren von Gegenständen ohne Kosten.\n\n<i>"Es ist etwas sehr falsch an einem Katana, das nach fünf oder sechs Treffern zerbricht, eines, das angeblich nicht aus Glas oder Schokolade besteht."\n— Zero Punctuation, Review von Silent Hill: Origins</i>
+customUI.freeItemRepairPage.noItems = Keine Gegenstände zum Reparieren.

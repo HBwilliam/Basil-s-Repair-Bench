@@ -1,4 +1,4 @@
-package com.basilisme.plugin.pages;
+package com.basilisme.repairbench.pages;
 
 import com.hypixel.hytale.codec.builder.BuilderCodec;
 import com.hypixel.hytale.component.ComponentAccessor;

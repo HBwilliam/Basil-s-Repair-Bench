@@ -1,4 +1,3 @@
 items.Bench_Repair.name = Repair Bench
 items.Bench_Repair.description = Used to Repair Items at no cost.\n\n<i>"There's something very wrong about a katana that shatters after five or six hits, one that ostensibly isn't made out of glass or chocolate."\n— Zero Punctuation, review of Silent Hill: Origins</i>
-customUI.itemRepairPage.noItems = No Items To Repair.
-customUI.FreeItemRepairPage.RepairAll = Repair All
+customUI.freeItemRepairPage.noItems = No Items To Repair.

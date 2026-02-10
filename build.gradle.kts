@@ -3,7 +3,7 @@ plugins {
 }
 
 group = "com.basilisme"
-version = "1.3-RELEASE"
+version = "1.3.1-RELEASE"
 
 repositories {
     mavenCentral()
